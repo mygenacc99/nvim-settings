@@ -1,0 +1,17 @@
+All blind-keys:
+
+" Live-server for HTML, CSS, JS
+:Bracey		: start the bracey server.
+:BraceyStop  	: shutdown the server and stop sending commands.
+:BraceyReload	: force the current web page to be reloaded.
+
+" Generate JsDoc
+:JsDoc
+
+Toggle nnnPicker: <F6>
+
+Panel Navigation
+C-hjkl instead of <C-w>hjkl
+
+Toggle Comment: Ctrl-/
+
