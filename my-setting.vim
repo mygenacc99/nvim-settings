@@ -77,3 +77,5 @@ vnoremap <C-o> <Esc>
 inoremap <silent><A-o> <Esc>O
 
 nnoremap <silent><C-[> :pop<CR>
+
+inoremap <C-d> <C-w>
