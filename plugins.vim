@@ -16,5 +16,5 @@ Plug 'mcchrish/nnn.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-surround'
-
+Plug 'honza/vim-snippets'
 call plug#end()
