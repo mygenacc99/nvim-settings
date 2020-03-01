@@ -5,6 +5,9 @@ All blind-keys:
 :BraceyStop  	: shutdown the server and stop sending commands.
 :BraceyReload	: force the current web page to be reloaded.
 
+" Format C, C++ source code.
+:ClangFormat
+
 " Generate JsDoc
 :JsDoc
 
