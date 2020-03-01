@@ -78,4 +78,6 @@ inoremap <silent><A-o> <Esc>O
 
 nnoremap <silent><C-[> :pop<CR>
 
-inoremap <C-d> <C-w>
+"inoremap <C-D> <C-w>
+inoremap <A-u> <C-u>
+inoremap <C-u> <C-w>
