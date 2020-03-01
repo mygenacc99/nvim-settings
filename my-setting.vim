@@ -1,5 +1,4 @@
-
-" Format code by coc-prettier. Use :Prettier to format current buffer.
+"Format code by coc-prettier. Use :Prettier to format current buffer.
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Set font.
@@ -69,7 +68,6 @@ nmap <C-s> :update<CR>
 vmap <C-s> <Esc><C-s>gv
 imap <C-s> <Esc><C-s>i
 nmap ZX :quit!<CR>
-
 
 inoremap <C-o> <Esc>
 nnoremap <C-o> <Esc>
