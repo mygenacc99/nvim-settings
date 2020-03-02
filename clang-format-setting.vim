@@ -1,5 +1,5 @@
+let g:clang_format#code_style="llvm"
 let g:clang_format#style_options = {
-            \ "AccessModifierOffset" : -4,
             \ "AllowShortIfStatementsOnASingleLine" : "Always",
             \ "AlwaysBreakTemplateDeclarations" : "true",
 			\ "AlignConsecutiveAssignments": "true",
