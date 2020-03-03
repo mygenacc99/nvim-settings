@@ -76,5 +76,7 @@ inoremap <silent><A-o> <Esc>O
 
 nnoremap <silent><C-[> :pop<CR>
 
-inoremap <A-u> <Esc>cc<BS>
+inoremap <A-u> <Tab><Esc>ld0i<BS>
 inoremap <C-u> <C-w>
+
+inoremap <C-e> <Esc>$a
