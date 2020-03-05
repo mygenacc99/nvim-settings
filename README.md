@@ -20,3 +20,10 @@ Toggle Comment: Ctrl-/
 
 Delete current line: Alt-u
 Delete previous line: Ctrl-u
+
+
+----- INSERT MODE:
+<C-b> Left arrow
+<C-f> Right arrow
+<C-z> undo
+<C-e> jump to end of line

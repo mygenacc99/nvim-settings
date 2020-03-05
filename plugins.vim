@@ -17,7 +17,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-surround'
 Plug 'honza/vim-snippets'
-
 " Prettier for C, C++
 Plug 'kana/vim-operator-user'
 Plug 'rhysd/vim-clang-format'

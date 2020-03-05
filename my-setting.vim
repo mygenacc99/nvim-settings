@@ -80,3 +80,6 @@ inoremap <A-u> <Tab><Esc>ld0i<BS>
 inoremap <C-u> <C-w>
 
 inoremap <C-e> <Esc>$a
+inoremap <C-z> <Esc>ua
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
