@@ -18,11 +18,8 @@ C-hjkl instead of <C-w>hjkl
 
 Toggle Comment: Ctrl-/
 
-Delete current line: Alt-u
-Delete previous line: Ctrl-u
-
-
 ----- INSERT MODE:
+<A-u> delete current line
 <C-b> Left arrow
 <C-f> Right arrow
 <C-z> undo

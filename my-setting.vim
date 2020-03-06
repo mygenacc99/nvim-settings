@@ -3,6 +3,13 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Set font.
 set termguicolors
+if has("gui_running")
+	set guifont=Fira\ Code:h14
+endif
+
+imap <C-BS> <C-w>
+imap <C-CR> <Esc>o
+imap <C-S-CR> <Esc>O
 
 " Theme
 syntax on
@@ -67,7 +74,7 @@ nnoremap <silent> <leader>F :FZF ~<cr>
 nmap <C-s> :update<CR>
 vmap <C-s> <Esc><C-s>gv
 imap <C-s> <Esc><C-s>i
-nmap ZX :quit!<CR>
+nnoremap ZX :quit!<CR>
 
 inoremap <C-o> <Esc>
 nnoremap <C-o> <Esc>
@@ -77,9 +84,9 @@ inoremap <silent><A-o> <Esc>O
 nnoremap <silent><C-[> :pop<CR>
 
 inoremap <A-u> <Tab><Esc>ld0i<BS>
-inoremap <C-u> <C-w>
 
 inoremap <C-e> <Esc>$a
 inoremap <C-z> <Esc>ua
+
 inoremap <C-b> <Left>
 inoremap <C-f> <Right>
