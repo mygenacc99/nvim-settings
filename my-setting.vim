@@ -13,7 +13,8 @@ imap <C-S-CR> <Esc>O
 
 " Theme
 syntax on
-colorscheme dracula
+"colorscheme dracula
+colorscheme monokai_pro
 let g:dracula_colorterm = 0
 let g:dracula_italic= 0
 

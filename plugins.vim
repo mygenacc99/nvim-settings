@@ -7,6 +7,7 @@ Plug 'turbio/bracey.vim'
 Plug 'sheerun/vim-polyglot' 
 Plug 'jiangmiao/auto-pairs'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'phanviet/vim-monokai-pro'
 Plug 'heavenshell/vim-jsdoc'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdcommenter'
