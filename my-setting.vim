@@ -5,11 +5,12 @@ command! -nargs=0 Prettier :CocCommand prettier.formatFile
 set termguicolors
 if has("gui_running")
 	set guifont=Fira\ Code:h14
+	imap <C-BS> <C-w>
+	imap <C-CR> <Esc>o
+	imap <C-S-CR> <Esc>O
 endif
 
-imap <C-BS> <C-w>
-imap <C-CR> <Esc>o
-imap <C-S-CR> <Esc>O
+
 
 " Theme
 syntax on
@@ -26,9 +27,13 @@ xmap ga <Plug>(EasyAlign)
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
+" Current line is 0
+set relativenumber
+" Uncomment line below to set number 0 at the beginning of file
+"set nu
+
 " Set mouse is enable and show number
 set mouse=a
-set nu
 " Automatically update when have been chaned by the other programs
 set autoread
 set autowrite
@@ -60,7 +65,7 @@ nnoremap <C-l> <C-w>l
 " Coppy and past
 vnoremap <C-c> "+yi
 vmap <C-x> "+x
-vmap <C-v> c<ESC>"+p
+vmap <C-v> c<ESC>"+
 imap <C-v> <ESC>"+pa
 
 " Comment
@@ -77,16 +82,18 @@ vmap <C-s> <Esc><C-s>gv
 imap <C-s> <Esc><C-s>i
 nnoremap ZX :quit!<CR>
 
-inoremap <C-o> <Esc>
-nnoremap <C-o> <Esc>
-vnoremap <C-o> <Esc>
+" New line before current line in insert-mode
 inoremap <silent><A-o> <Esc>O
 
+" Jump back to previous position
 nnoremap <silent><C-[> :pop<CR>
 
+" Remove line
 inoremap <A-u> <Tab><Esc>ld0i<BS>
 
-inoremap <C-e> <Esc>$a
+" Jump to the end of line
+inoremap <C-e> <Esc>$a 
+" Undo
 inoremap <C-z> <Esc>ua
 
 inoremap <C-b> <Left>
