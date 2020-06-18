@@ -28,7 +28,9 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " Current line is 0
-set relativenumber
+set number relativenumber
+set nu rnu
+
 " Uncomment line below to set number 0 at the beginning of file
 "set nu
 
