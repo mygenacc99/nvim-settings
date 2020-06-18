@@ -8,9 +8,8 @@ if has("gui_running")
 	imap <C-BS> <C-w>
 	imap <C-CR> <Esc>o
 	imap <C-S-CR> <Esc>O
+	imap <C-i> <Esc>
 endif
-
-
 
 " Theme
 syntax on
@@ -98,5 +97,3 @@ inoremap <C-e> <Esc>$a
 " Undo
 inoremap <C-z> <Esc>ua
 
-inoremap <C-b> <Left>
-inoremap <C-f> <Right>
