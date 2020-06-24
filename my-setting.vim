@@ -1,6 +1,5 @@
 "Format code by coc-prettier. Use :Prettier to format current buffer.
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
-
 " Set font.
 set termguicolors
 if has("gui_running")
@@ -15,8 +14,6 @@ endif
 syntax on
 "colorscheme dracula
 colorscheme monokai_pro
-let g:dracula_colorterm = 0
-let g:dracula_italic= 0
 
 nmap <F6> :NnnPicker '%:p:h'<CR>
 
